@@ -1,0 +1,71 @@
+File Manipulation:
+
+a = file.open("file.txt","r/a")
+b = file.readlines/read/writelines/append()
+a.close()
+
+String manipulation:
+
+b.ljust/b.rjust (30) adjusts to fit in 30 spaces
+
+strip - removes a certain character(s) from a word/ variable
+split - seperates a list from a certain character
+indexing - each word/character gets a value
+print(a, end == "")
+Appending lists - editing lists
+center = prints the word in the center of a certain amount of spaces
+
+
+
+operators:
+
+<
+>
+<=
+>=
+
+**
+*
+/
++
+-
+
+random:
+random.choice     #chooses a random option in a list
+random.randint(20,30)   #Chooses a random number between 20 and 30
+
+time:
+time.sleep(5)   # waits for 5 seconds
+
+loops:
+bob = true
+while bob:
+	print("hi")
+
+
+list = (bob,blob,jeffbob)
+for i in list:
+	print("hi")
+
+function - some code which does a certain operation that can be called on:
+def func(word):
+	print(word)
+
+a = func(bob)
+
+Classes:
+class print1:
+	
+	def __init__(self, word):
+		self.word = word
+
+	def print(self):
+		print(self.word)
+
+a = print1("blob")
+a.print()
+
+variables / code
+function
+class - grouping
+module / python file
