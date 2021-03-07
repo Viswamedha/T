@@ -1,5 +1,4 @@
 board = [["1","2","3"],["4","5","6"],["7","8","9"]]
-def show(): print("\n".join([" | ".join(line) for line in board]))
 def render():
   data = []
   for line in board:
@@ -25,8 +24,8 @@ def check(token):
     elif board[0][2] == board[1][1] and board[1][1] == board[2][0] and board[2][0] == token: return True
   return False
 playeroneturn = True
-show()
 while True:
+  print("\n".join([" | ".join(line) for line in board]))
   if playeroneturn:
     playeroneturn = False
     if check("X"):
@@ -41,4 +40,3 @@ while True:
   if turn_count == 9:
     print("Game is a draw")
     break
-  show()
